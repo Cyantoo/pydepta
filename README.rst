@@ -1,7 +1,7 @@
 This fork
 =========
 
-This fork is made to be compatible with Python 3 (original project is in Python 2.7)
+This fork is made to be compatible with Python 3 (original project is in Python 2.7).
 
 ========
 PyDepta
@@ -23,7 +23,7 @@ Usage
 0. Installation
 ===============
 
-Before using the library, you should run the script "setup.py". It will create a "build" directory in which are the files you can actually call.
+Before using the library, you should run the script "setup.py" with the parameter "build". It will create a "build" directory in which are the files you can actually call.
 
 1. (Unsupervised) Extract from url
 ==================================
