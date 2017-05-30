@@ -1,4 +1,4 @@
-from urllib import urlopen
+from urllib.request import urlopen
 from scrapely import HtmlPage, Scraper, TemplateMaker, best_match, InstanceBasedLearningExtractor
 from lxml.html import tostring
 from scrapely.extraction.regionextract import (RecordExtractor, BasicTypeExtractor, TemplatePageExtractor, \
@@ -113,9 +113,9 @@ class Depta(object):
             items, _ = field_finder.align_records(records)
             region.items = items
             if 'verbose' in kwargs:
-                print region
+                print(region)
                 for record in records:
-                    print '\t', record
+                    print('\t', record)
 
         return regions
 

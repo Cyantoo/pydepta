@@ -3,6 +3,7 @@ import copy
 
 from .trees_cython import create_2d_matrix, tree_match
 
+
 def tree_size(root):
     """
     Get the subtree size.
