@@ -1,8 +1,13 @@
+This fork
+=========
+
+This fork is made to be compatible with Python 3 (original project is in Python 2.7)
+
 ========
 PyDepta
 ========
 
-PyDepta is a library to extract structured data from HTML page. It can works in both supervised and unsupervised mode.
+PyDepta is a library to extract structured data from HTML page. It can work in both supervised and unsupervised mode.
 
 Under the hold, PyDepta implemented Yanhong Zhai and Bing Liu's work on `Web Data Extraction Based on Partial Tree Alignment`_
 to extract data without example data (so called unsupervised learning).
@@ -14,6 +19,11 @@ It relies on Scrapely_ to extract the structured data after you tell it the data
 
 Usage
 ========
+
+0. Installation
+===============
+
+Before using the library, you should run the script "setup.py". It will create a "build" directory in which are the files you can actually call.
 
 1. (Unsupervised) Extract from url
 ==================================
